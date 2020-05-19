@@ -1,0 +1,63 @@
+
+#ShadowBelowMenu::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  left: 20px;
+  right: 20px;
+  margin-top: -5px;
+  height: 10px;
+  background: radial-gradient(closest-side, #666, #fff);
+}
+.card::after{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  left: 20px;
+  right: 20px;
+  margin-top: -5px;
+  height: 10px;
+  background: radial-gradient(closest-side, #666, #fff);
+}
+#par{
+  font-size:small;
+  color: lightslategray;
+}
+#h{
+  color: #ffffff;
+}
+#Secondj{
+  background-color: #d1d1d1;
+  padding-bottom: 160px;
+}
+#UselessBtn{
+  background-color: white;
+  color:white;
+  margin-top : 50px;
+  padding-left:90px;
+}
+sup{
+  vertical-align: super;
+}
+.fa-check{
+  padding-right: 10px;
+  color:  #02bedb;
+}
+.fa-times{
+  padding-right:10px;
+  color:#02bedb;
+}
+.jumbo_color{
+  color: #d1d1d1;
+}
+#Footer_text{
+  font-size: x-small;
+}
+#stars{
+  font-size: xx-small;
+}
+.SmallButtons{
+  font-size: smaller;
+}
